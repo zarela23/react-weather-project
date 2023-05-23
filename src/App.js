@@ -1,5 +1,6 @@
-import "./App.css";
 import Weather from "./Weather";
+import "./App.css";
+import React from "react";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div className="container">
         <Weather defaultCity="Tokyo" />
         <footer>
-          This project was coded by Zarela G. & is{" "}
+          This project was coded by <span>Zarela G.</span> and is {""}
           <a
             href="https://github.com/zarela23/react-weather-project"
             target="_blank"
