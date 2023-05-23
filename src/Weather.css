@@ -7,19 +7,20 @@
   background-color: rgba(180, 174, 174, 0.2);
 }
 
-h1 {
+.Weather h1 {
   font-size: 30px;
   margin: 20px 0 0 0;
   font-weight: 100;
-  line-height: 26px;
+  line-height: 35px;
+  margin-bottom: 4px;
 }
 
-ul {
+.Weather ul {
   margin: 0;
   padding: 0;
 }
 
-li {
+.Weather li {
   font-size: 14px;
   font-weight: none;
   line-height: 20px;
