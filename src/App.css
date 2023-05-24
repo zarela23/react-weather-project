@@ -1,7 +1,6 @@
 .App {
   max-width: 700px;
-  margin: 30px auto;
-  margin-top: 80px;
+  margin: 200px auto;
 }
 
 .App footer {
@@ -11,11 +10,12 @@
 }
 
 body {
-  background: linear-gradient(
-    44.8deg,
-    rgba(255, 136, 102, 0.67) -53.1%,
-    rgba(255, 221, 136, 0.28) 49%
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
   );
+
   width: 100%;
   min-height: 100vh;
   background-size: cover;

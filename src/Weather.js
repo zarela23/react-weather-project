@@ -19,6 +19,7 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       city: response.data.name,
+      country: response.data.sys.country,
     });
   }
 
@@ -32,7 +33,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "97f8e93f00107773f88eafd933ce86b7";
+    const apiKey = "b95f179627c8dd37f41e1be6e3250e19";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -45,7 +46,7 @@ export default function Weather(props) {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Search city"
+                placeholder="Search city..."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
