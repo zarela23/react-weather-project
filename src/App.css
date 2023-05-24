@@ -3,20 +3,19 @@
   margin: 200px auto;
 }
 
+body {
+  background-image: url("./clouds.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
 .App footer {
   font-size: 12px;
   margin: 10px 0;
   text-align: center;
 }
 
-body {
-  background: radial-gradient(
-    592px at 48.2% 50%,
-    rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
-  );
-
-  width: 100%;
-  min-height: 100vh;
-  background-size: cover;
+.App footer a {
+  text-decoration: none;
 }
